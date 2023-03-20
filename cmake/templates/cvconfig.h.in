@@ -115,6 +115,9 @@
 /* parallel_for with pthreads */
 #cmakedefine HAVE_PTHREADS_PF
 
+/* parallel_for with OpenMP */
+#cmakedefine HAVE_OPENMP
+
 /* Intel Threading Building Blocks */
 #cmakedefine HAVE_TBB
 
